@@ -17,5 +17,4 @@ Skills:
 <img src = "https://img.shields.io/badge/-Solidity-3776AB?logo=Solidity&logoColor=fff" /></center>
 <img src = "https://img.shields.io/badge/-Ethereum-3776AB?logo=Ethereum&logoColor=fff" /></center>
 
-
-[Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MaruQuant&langs_count=10&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MaruQuant&langs_count=10&theme=radical)
