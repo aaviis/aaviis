@@ -17,3 +17,12 @@ jobs:
         run: |
           curl -o ./stats/README-stats.svg "https://github-readme-stats.vercel.app/api?username=aaviis&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&token=${{ secrets.GS_TOKEN }}"
           curl -o ./stats/README-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=aaviis&layout=compact&theme=tokyonight&count_private=true&exclude_repo=QuantLib,okx,data-science-interview-questions-and-answers&token=${{ secrets.GS_TOKEN }}"
+      - name: Commit stats images
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add stats/*.svg
+          git commit -m "Update GitHub stats" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
