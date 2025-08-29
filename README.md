@@ -1,20 +1,42 @@
-<h1 align="center"> Hi there! I'm Maria 👋</h1>
+# Привет, я Мария  👋 
 
-<h2 align="center"> I'm a math engineer, analytics manager with 15+ years in FinTech
+🚀 Senior Quantitative Analyst | Data Scientist | Analytics Manager, MBA | 19+ years in FinTech | Open to AI-projects
 
-I focus on complex, high-tech projects that are unique in nature and demand a customized, individual approach</h2>   
+---
+## 🛠 Навыки и инструменты
+![C#](https://img.shields.io/badge/-C%23-239120?style=flat&logo=c-sharp&logoColor=white)
+![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
 
---------------------------------------------------
-Skills:
+---
 
-<img src = "https://img.shields.io/badge/-Python-3776AB?logo=Python&logoColor=fff"/></center>
-<img src = "https://img.shields.io/badge/-C++-3776AB?logo=C++&logoColor=fff"/></center>
-<img src = "https://img.shields.io/badge/-C-3776AB?logo=C&logoColor=fff"/></center>
-<img src = "https://img.shields.io/badge/-C Sharp-3776AB?logo=C Sharp&logoColor=fff"/></center>
-<img src = "https://img.shields.io/badge/-MATLAB-3776AB?logo=MATLAB&logoColor=fff" /></center>
-<img src = "https://img.shields.io/badge/-SQL-3776AB?logo=SQL&logoColor=fff"/></center>
-<mg src = "https://img.shields.io/badge/-MongoDB-3776AB?logo=MongoDB&logoColor=fff"/></center>
-<img src = "https://img.shields.io/badge/-Solidity-3776AB?logo=Solidity&logoColor=fff" /></center>
-<img src = "https://img.shields.io/badge/-Ethereum-3776AB?logo=Ethereum&logoColor=fff" /></center>
+## 🏆 Достижения
+![Quant Research & Models](https://img.shields.io/badge/Quant_Research_&_Models-FinTech-yellow?style=for-the-badge)
+![Data Science Models](https://img.shields.io/badge/Data_Science_Models-DS-red?style=for-the-badge)
+![Trading & Market Maker Systems](https://img.shields.io/badge/Trading_&_Market_Maker_Systems-Expert-blue?style=for-the-badge)
+![Blockchain Research](https://img.shields.io/badge/Blockchain_Research-Cripto_Enthusiast-orange?style=for-the-badge)
+![Mentorship & Leadership](https://img.shields.io/badge/Mentorship_&_Leadership-Senior-purple?style=for-the-badge)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=aaviis&theme=radical&exclude_repo=habr_flats)
+---
+
+## 🚀 Избранные публичные репозитории
+- [V2T-Summarizer](https://github.com/aaviis/V2T-Summarizer) — ИИ проект аудио в текст и подготовка саммари с помощью ИИ (SpeechRecognition, OpenAI API, pydub, moviepy)
+- [detection_bots](https://habr.com/ru/articles/774850/) - ИИ проект по детекции изображений (фото и видео) NVidia Single Shot MultiBox Detector model 
+- [Poker room](https://pok-boss.vercel.app/) - MVP покер-рума на React с кошельком MetaMask на Solidity
+- [habr_flats](https://github.com/aaviis/habr_flats) — пример красивой аналитики на Python (numpy, pandas, matplotlib, seaborn, BeautifulSoup)
+- [linear_nn](https://github.com/aaviis/linear_nn) — исторические нейронные сети "ручками" на Python  
+
+---
+## 📊 GitHub статистика
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=aaviis&show_icons=true&theme=tokyonight)  
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=aaviis&layout=compact&theme=tokyonight&hide=Jupyter%20Notebook,HTML,CSS&exclude_repo=QuantLib,okx,data-science-interview-questions-and-answers&langs_count=6)
+
+---
+## 📬 Контакты
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mariakudryashova/)
+[![Habr Evia](https://img.shields.io/badge/Habr-Evia-005fff?style=for-the-badge&logo=habr&logoColor=white)](https://habr.com/ru/users/evia/)
+[![Habr kms_msk](https://img.shields.io/badge/Habr-kms_msk-005fff?style=for-the-badge&logo=habr&logoColor=white)](https://habr.com/ru/users/kms_msk/articles/)
+
