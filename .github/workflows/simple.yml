@@ -1,31 +1,25 @@
 name: Test Git Push
 
 on:
-  workflow_dispatch:  # запуск вручную
+  workflow_dispatch:
 
 jobs:
   test-push:
     runs-on: ubuntu-latest
     steps:
-      # Забираем репозиторий
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
         with:
-          persist-credentials: true  # токен GITHUB_TOKEN будет использоваться для пуша
+          persist-credentials: false  # отключаем встроенный токен, чтобы использовать URL
 
-      # Создаём тестовый файл
       - name: Create test file
-        run: |
-          echo "GitHub Actions push test" > push-test.txt
-          cat push-test.txt
+        run: echo "GitHub Actions push test" > push-test.txt
 
-      # Коммитим и пушим
-      - name: Commit and Push
+      - name: Commit and push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add push-test.txt
           git commit -m "Test push from Actions" || echo "No changes to commit"
-          git push origin HEAD:main
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/aaviis/aaviis.git
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
