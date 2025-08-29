@@ -30,11 +30,6 @@
 ---
 ## 📊 GitHub статистика
 
-![GitHub stats](stats/README-stats.svg)  
-![Top Langs](stats/README-langs.svg)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=aaviis&layout=compact&theme=tokyonight&hide=Jupyter%20Notebook,HTML,CSS&exclude_repo=QuantLib,okx,data-science-interview-questions-and-answers&langs_count=6&token=GS_TOKEN)
-
 
 ---
 ## 📬 Контакты
