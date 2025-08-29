@@ -1,6 +1,6 @@
 name: Update GitHub Stats
 
-# Когда запускать workflow: каждый день или вручную
+# Когда запускать workflow: каждый день и вручную
 on:
   schedule:
     - cron: '0 0 * * *' # каждый день в 00:00 UTC
@@ -10,13 +10,25 @@ jobs:
   generate-stats:
     runs-on: ubuntu-latest
     steps:
+      # Шаг 1: Забираем репозиторий
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      # Шаг 2: Создаём папку stats
+      - name: Create stats folder
+        run: mkdir -p stats
+
+      # Шаг 3: Генерируем SVG-файлы
       - name: Generate GitHub stats images
         run: |
           curl -o ./stats/README-stats.svg "https://github-readme-stats.vercel.app/api?username=aaviis&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&token=${{ secrets.GS_TOKEN }}"
           curl -o ./stats/README-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=aaviis&layout=compact&theme=tokyonight&count_private=true&exclude_repo=QuantLib,okx,data-science-interview-questions-and-answers&token=${{ secrets.GS_TOKEN }}"
+
+      # Шаг 4: Проверка, что файлы создались
+      - name: List stats folder
+        run: ls -la stats
+
+      # Шаг 5: Коммитим и пушим
       - name: Commit stats images
         run: |
           git config --global user.name "github-actions[bot]"
