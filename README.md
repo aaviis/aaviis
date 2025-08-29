@@ -34,6 +34,9 @@
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=aaviis&layout=compact&theme=tokyonight&hide=Jupyter%20Notebook,HTML,CSS&exclude_repo=QuantLib,okx,data-science-interview-questions-and-answers&langs_count=6)
 
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=aaviis&layout=compact&theme=tokyonight&hide=Jupyter%20Notebook,HTML,CSS&exclude_repo=QuantLib,okx,data-science-interview-questions-and-answers&langs_count=6&token=GS_TOKEN)
+
+
 ---
 ## 📬 Контакты
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mariakudryashova/)
