@@ -25,4 +25,4 @@ jobs:
           git commit -m "Update GitHub stats" || echo "No changes to commit"
           git push
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GS_TOKEN }}
