@@ -13,6 +13,8 @@ jobs:
       # Шаг 1: Забираем репозиторий
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          persist-credentials: false
 
       # Шаг 2: Создаём папку stats
       - name: Create stats folder
