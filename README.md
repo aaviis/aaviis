@@ -1,6 +1,6 @@
 # Привет, я Мария  👋 
 
-🚀 Senior Quantitative Analyst | Data Scientist | Analytics Manager, MBA | 18+ years in FinTech | Open to AI-projects
+🚀 Senior Quantitative Reseach Lead | AI/ML & Data Systems | 19+ years in FinTech 
 
 ---
 ## 🛠 Навыки и инструменты
